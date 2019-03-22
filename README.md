@@ -10,7 +10,7 @@ Learn basics of fragment shader
 ## Prerequisites
 - Install [glslviewer](https://github.com/patriciogonzalezvivo/glslViewer)
 
-## Hello world
+## Hello world`
 Show red pixels
 
 ```glslviewer hellored.frag```
@@ -62,3 +62,12 @@ Or, use automated one
 
 ```glslviewer two_by_two.frag girl.jpg girl2.jpg```
 
+## Blur
+
+Rotational blur
+
+```glslviewer blur_rotation.frag girl.jpg```
+
+and enter following command into glslviewer's command line
+
+```u_rotationDegree,10.0```
