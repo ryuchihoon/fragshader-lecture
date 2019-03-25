@@ -10,7 +10,7 @@ Learn basics of fragment shader
 ## Prerequisites
 - Install [glslviewer](https://github.com/patriciogonzalezvivo/glslViewer)
 
-## Hello world`
+## Hello world
 Show red pixels
 
 ```glslviewer hellored.frag```
@@ -23,6 +23,21 @@ Coordinates in pixel unit
 Normalized coordinates 
 
 ```glslviewer coord_normal.frag```
+
+## Circle drawing
+Draw a circle
+
+```glslviewer circle.frag```
+
+It looks like an ellipse if viewport size changes
+
+```glslviewer circle.frag -w 300 -h 500```
+
+## Aspect ratio
+
+Draw a circle regardless of aspect ratio of viewport
+
+```glslviewer circle_aspectratio.frag -w 300 -h 500```
 
 ## Texture drawing
 
