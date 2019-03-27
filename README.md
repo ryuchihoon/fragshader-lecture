@@ -84,6 +84,10 @@ Bokeh blur
 
 ```glslviewer blur_bokeh.frag girl.jpg -w 300 -h 300```
 
+Linear motion blur
+
+```glslviewer blur_linmotion.frag girl.jpg -w 200 -h 200```
+
 Rotational blur
 
 ```glslviewer blur_rotation.frag girl.jpg```
