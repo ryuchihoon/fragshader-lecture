@@ -56,6 +56,12 @@ Flip it vertically using fragment shader code
 
 ```glslviewer img_vflip.frag -vFlip girl.jpg```
 
+## Color manipulation
+
+Reduce color diversity
+
+```glslviewer img_posterization.frag girl2.jpg```
+
 ## Blending colors
 
 Blend two images
