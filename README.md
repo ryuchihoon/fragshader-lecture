@@ -79,6 +79,11 @@ Or, use automated one
 
 ## Blur
 
+Bokeh blur
+> kernel of bokeh blur : https://youtu.be/vNG3ZAd8wCc?t=265
+
+```glslviewer blur_bokeh.frag girl.jpg -w 300 -h 300```
+
 Rotational blur
 
 ```glslviewer blur_rotation.frag girl.jpg```
