@@ -86,3 +86,11 @@ Rotational blur
 and enter following command into glslviewer's command line
 
 ```u_rotationDegree,10.0```
+
+
+## Masking
+
+Blend 2 images using mask image
+
+```glslviewer blend_mask.frag girl.jpg girl2.jpg mask.png```
+
