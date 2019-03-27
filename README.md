@@ -77,12 +77,6 @@ Or, use automated one
 
 ```./change_blend_alpha.sh | glslviewer blend_normal.frag girl.jpg girl2.jpg```
 
-## Composition
-
-2x2
-
-```glslviewer two_by_two.frag girl.jpg girl2.jpg```
-
 ## Blur
 
 Rotational blur
@@ -100,3 +94,12 @@ Blend 2 images using mask image
 
 ```glslviewer blend_mask.frag girl.jpg girl2.jpg mask.png```
 
+## Position manipulation
+
+Zoom in
+
+```glslviewer zoom.frag girl.jpg```
+
+2x2 Composition
+
+```glslviewer two_by_two.frag girl.jpg girl2.jpg```
