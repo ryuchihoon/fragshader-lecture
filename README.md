@@ -135,6 +135,11 @@ Zoom in
 
 ```glslviewer two_by_two.frag girl.jpg girl2.jpg```
 
+Non-linear
+
+```glslviewer non_linear.frag girl.jpg```
+
+
 ## Dynamic uv mapping
 
 dynamic uv mapping with no effect
