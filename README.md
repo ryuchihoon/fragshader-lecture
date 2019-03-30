@@ -77,6 +77,28 @@ Or, use automated one
 
 ```./change_blend_alpha.sh | glslviewer blend_normal.frag girl.jpg girl2.jpg```
 
+## Photoshop blend mode
+
+Blend two images with various blend mode
+> Formula : https://docs.gimp.org/2.10/da/gimp-concepts-layer-modes.html
+
+Multiply
+
+```glslviewer blend_multiply.frag girl.jpg girl2.jpg```
+
+Screen
+
+```glslviewer blend_screen.frag girl.jpg girl2.jpg```
+
+Overlay
+
+```glslviewer blend_overlay.frag girl.jpg girl2.jpg```
+
+Burn
+
+```glslviewer blend_burn.frag girl.jpg girl2.jpg```
+
+
 ## Blur
 
 Bokeh blur
@@ -112,3 +134,17 @@ Zoom in
 2x2 Composition
 
 ```glslviewer two_by_two.frag girl.jpg girl2.jpg```
+
+## Dynamic uv mapping
+
+dynamic uv mapping with no effect
+
+```glslviewer dynamic_uv.frag girl.jpg redgreen.png```
+
+pip with dynamic uv mapping
+
+```glslviewer dynamic_uv.frag girl.jpg redgreen_pip.png```
+
+
+
+
